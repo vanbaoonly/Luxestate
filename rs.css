@@ -1,0 +1,221 @@
+ /* Các kiểu cho màn hình di động */
+
+
+ @media only screen and (max-width: 767px) {
+     .nav {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .nav .nav_item1,
+     .nav .nav_item2 {
+         margin-top: 10px;
+     }
+
+     .nav .nav_item2 {
+         display: none;
+     }
+
+     .logo {
+         margin-bottom: 10px;
+     }
+
+
+     .container {
+         margin: 0 auto;
+         width: 768px;
+         padding: 0 10px;
+     }
+
+
+
+     #company .company_content {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-between;
+
+     }
+
+     .company_content .left {
+         flex: 0 0 100%;
+     }
+
+     .company_content .left p {
+         width: 400px;
+     }
+
+     .wrapper_card {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .wrapper_card .card {
+         width: 90%;
+         margin: 0 auto;
+
+     }
+
+     .howitwork .howitwork_wrapper_card {
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .howitwork .howitwork_wrapper_card .howitwork_card {
+         width: 100%;
+     }
+
+     .services .wrapper_content {
+         flex-direction: column;
+
+     }
+
+     .wrapper_content .content_left,
+     .wrapper_content .content_right {
+         flex: 0 0 100%;
+         width: 100%;
+         max-width: 100%;
+         padding-left: 0;
+     }
+
+     #super_awesome_add .wrapper_item .item {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+
+     }
+
+     .item_address,
+     .item .item_text {
+
+         flex: 0 0 100%;
+         width: 100%;
+         max-width: 100%;
+         height: 330px;
+
+     }
+
+
+
+     .warpper_contact {
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+     }
+
+     .warpper_contact .contact_left {
+         width: 70%;
+         align-items: center;
+         justify-content: center
+     }
+
+     .form {
+         width: 100%;
+         padding: 50px;
+
+     }
+
+     .warpper_contact .contact_right {
+         width: 100%;
+         height: 700px;
+     }
+
+     .footer_top {
+         flex-direction: column;
+     }
+
+     .footer_top h1,
+     .footer_top_input,
+     .footer_top_input input {
+         width: 90%;
+     }
+
+     .footer_top_input i {
+
+         top: 15px;
+         right: 100px;
+     }
+
+     .footer_content {
+         flex-direction: column;
+         gap: 20px;
+     }
+
+     .footer_content .footer_item1,
+     .footer_content .footer_item2 {
+         flex: 0 0 100%;
+         text-align: center;
+         justify-content: center;
+
+     }
+
+
+
+
+ }
+
+ /* Các kiểu cho máy tính bảng và màn hình lớn hơn */
+ @media only screen and (min-width: 768px) and (max-width: 1023px) {
+     .container {
+         max-width: 768px;
+     }
+
+     .nav {
+         flex-direction: column;
+         align-items: flex-start;
+     }
+
+     .nav .nav_item1,
+     .nav .nav_item2 {
+         margin-top: 10px;
+     }
+
+     .nav .nav_item2 {
+         display: none;
+     }
+
+     .logo {
+         margin-bottom: 10px;
+     }
+
+     .wrapper_card {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .wrapper_card .card {
+         width: 90%;
+         margin: 0 auto;
+
+     }
+
+     .howitwork .howitwork_wrapper_card {
+         grid-template-columns: repeat(2, 1fr);
+     }
+
+     .howitwork .howitwork_wrapper_card .howitwork_card {
+         width: 100%;
+     }
+
+     .services .wrapper_content {
+         flex-direction: column;
+         gap: 50px;
+     }
+
+     .wrapper_content .content_left {
+         overflow: hidden;
+         width: 100%;
+         max-width: 100%;
+
+     }
+
+     .wrapper_content .content_right {
+
+         width: 100%;
+
+     }
+ }
+
+ /* Các kiểu cho màn hình máy tính */
+ @media only screen and (min-width: 1024px) {
+     .container {
+         max-width: 1024px;
+     }
+ }
