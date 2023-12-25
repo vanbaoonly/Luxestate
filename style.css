@@ -152,7 +152,7 @@ header .nav {
 #wrapper_banner {
     width: 100%;
     height: 600px;
-    background: url("/image/banner.png") center / cover;
+    background: url("./image/banner.png") center / cover;
 
 }
 
@@ -688,7 +688,7 @@ form .btn_sendus {
 .warpper_contact .contact_right {
     width: 50%;
     height: 900px;
-    background: url("/image/contact.png") center / cover;
+    background: url("../image/contact.png") center / cover;
 
 }
 
