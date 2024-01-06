@@ -688,7 +688,7 @@ form .btn_sendus {
 .warpper_contact .contact_right {
     width: 50%;
     height: 900px;
-    background: url("../image/contact.png") center / cover;
+    background: url("./image/contact.png") center / cover;
 
 }
 
